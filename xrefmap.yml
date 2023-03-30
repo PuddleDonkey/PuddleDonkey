@@ -1,0 +1,15 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: PuddleDonkey.Base
+  name: PuddleDonkey.Base
+  href: api/PuddleDonkey.Base.html
+  commentId: N:PuddleDonkey.Base
+  fullName: PuddleDonkey.Base
+  nameWithType: PuddleDonkey.Base
+- uid: PuddleDonkey.Base.IJob
+  name: IJob
+  href: api/PuddleDonkey.Base.IJob.html
+  commentId: T:PuddleDonkey.Base.IJob
+  fullName: PuddleDonkey.Base.IJob
+  nameWithType: IJob
