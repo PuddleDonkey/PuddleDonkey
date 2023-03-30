@@ -1,0 +1,32 @@
+root = true
+
+#  CSharp formatting rules:
+[*.cs]
+
+dotnet_diagnostic.IDE0040.severity = error
+
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_new_line_before_members_in_object_initializers = true
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = true
+
+# Defining the 'public_symbols' symbol group
+dotnet_naming_symbols.public_symbols.applicable_kinds           = property,method,field,event,delegate
+dotnet_naming_symbols.public_symbols.applicable_accessibilities = public
+dotnet_naming_symbols.public_symbols.required_modifiers         = readonly
+
+# Defining the 'first_word_upper_case_style' naming style
+dotnet_naming_style.first_word_upper_case_style.capitalization = first_word_upper
+
+# Defining the 'public_members_must_be_capitalized' naming rule, by setting the
+# symbol group to the 'public symbols' symbol group,
+dotnet_naming_rule.public_members_must_be_capitalized.symbols  = public_symbols
+# setting the naming style to the 'first_word_upper_case_style' naming style,
+dotnet_naming_rule.public_members_must_be_capitalized.style    = first_word_upper_case_style
+# and setting the severity.
+dotnet_naming_rule.public_members_must_be_capitalized.severity = error
+
+dotnet_diagnostic.CA1014.severity = none
