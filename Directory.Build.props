@@ -1,14 +1,15 @@
 <Project>
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <AnalysisLevel>latest-all</AnalysisLevel>
+        <AnalysisMode>All</AnalysisMode>
+        <Deterministic>true</Deterministic>
+        <DisableWarning>CA1303</DisableWarning>
+        <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
-        <AnalysisMode>All</AnalysisMode>
-        <AnalysisLevel>latest-all</AnalysisLevel>
-        <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+        <TargetFramework>net6.0</TargetFramework>
+        <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
         <_SkipUpgradeNetAnalyzersNuGetWarning>True</_SkipUpgradeNetAnalyzersNuGetWarning>
-        <GenerateDocumentationFile>True</GenerateDocumentationFile>
-        <Deterministic>true</Deterministic>
     </PropertyGroup>
 </Project>

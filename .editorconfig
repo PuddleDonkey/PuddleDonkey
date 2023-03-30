@@ -30,3 +30,5 @@ dotnet_naming_rule.public_members_must_be_capitalized.style    = first_word_uppe
 dotnet_naming_rule.public_members_must_be_capitalized.severity = error
 
 dotnet_diagnostic.CA1014.severity = none
+dotnet_diagnostic.CA1303.severity = none
+dotnet_diagnostic.CA1812.severity = none
